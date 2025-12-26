@@ -1,24 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_advanced_course/doc_app.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const DocApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Hello Flutter'),
-        ),
-        body: const Center(
-          child: Text('Welcome to Flutter!'),
-        ),
-      ),
-  );
-  }
-}
-
+ 
